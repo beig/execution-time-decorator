@@ -27,7 +27,6 @@ export class PerfLogger {
     if (!isInNode) {
       this.hr = false;
     }
-    this.printLine('begin');
   }
 
   private get timerDiff() {
